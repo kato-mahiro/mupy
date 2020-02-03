@@ -51,3 +51,11 @@ public:
     }
 };
 static thread_local Rand rnd;
+
+double drnd(double min, double max)
+{
+    double val = rnd(int(1'000'000 * min), int(1'000'000 * max));
+    if(val){ val = val / 1'000'000; }
+    else { val = double(val); };
+    return val;
+}
