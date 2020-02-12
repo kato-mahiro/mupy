@@ -58,6 +58,7 @@ struct Neuron
     double get_modulation_val(void){ return this -> modulation_val; }
 };
 
+/*
 int main(void)
 {
     Neuron n(normal);
@@ -68,3 +69,4 @@ int main(void)
     std::cout<<n.get_modulation_val();
     return 0;
 }
+*/

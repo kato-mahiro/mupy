@@ -23,6 +23,7 @@ struct Connection
     }
 };
 
+/*
 int main(void)
 {
     Connection c(10,20,30);
@@ -32,3 +33,4 @@ int main(void)
     std::cout << c.connection_id << ',' << c.input_id << ',' << c.output_id << ','
     << c.is_valid << ',' << c.initial_weight <<',' << c.weight <<'\n' << std::endl;
 }
+*/
