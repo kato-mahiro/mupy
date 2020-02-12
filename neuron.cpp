@@ -25,11 +25,11 @@ struct Neuron
     Neuron(NeuronType nt)
     {
         neuron_type = nt;
-        bias = drnd(bias_lower_limit, bias_upper_limit);
-        A = drnd(evoparam_lower_limit, evoparam_upper_limit);
-        B = drnd(evoparam_lower_limit, evoparam_upper_limit);
-        C = drnd(evoparam_lower_limit, evoparam_upper_limit);
-        D = drnd(evoparam_lower_limit, evoparam_upper_limit);
+        bias = drnd(BIAS_LOWER_LIMIT, BIAS_UPPER_LIMIT);
+        A = drnd(EVOPARAM_LOWER_LIMIT, EVOPARAM_UPPER_LIMIT);
+        B = drnd(EVOPARAM_LOWER_LIMIT, EVOPARAM_UPPER_LIMIT);
+        C = drnd(EVOPARAM_LOWER_LIMIT, EVOPARAM_UPPER_LIMIT);
+        D = drnd(EVOPARAM_LOWER_LIMIT, EVOPARAM_UPPER_LIMIT);
     }
 
     void set_activation_val(double a)

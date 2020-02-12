@@ -18,7 +18,7 @@ struct Connection
         this -> connection_id = connection_id;
         this -> input_id = input_id;
         this -> output_id = output_id;
-        initial_weight = drnd(weight_lower_limit, weight_upper_limit);
+        initial_weight = drnd(WEIGHT_LOWER_LIMIT, WEIGHT_UPPER_LIMIT);
         weight = initial_weight;
     }
 };
