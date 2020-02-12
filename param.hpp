@@ -24,6 +24,6 @@ const double EVOPARAM_UPPER_LIMIT = 1.0;
 const double EVOPARAM_LOWER_LIMIT = -1.0;
 
 const double EPSIRON_LOWER_LIMIT = 0.01;
-const double EPSIRON_UPPER_LIMIT = 10.0
+const double EPSIRON_UPPER_LIMIT = 10.0;
 
 #endif
