@@ -1,13 +1,13 @@
 #ifndef param_hpp
 #define param_hpp
 
-const double bias_upper_limit = 10.0;
-const double bias_lower_limit = -10.0;
+const double BIAS_UPPER_LIMIT = 10.0;
+const double BIAS_LOWER_LIMIT = -10.0;
 
-const double weight_upper_limit = 1.0;
-const double weight_lower_limit = -1.0;
+const double WEIGHT_UPPER_LIMIT = 1.0;
+const double WEIGHT_LOWER_LIMIT = -1.0;
 
-const double evoparam_upper_limit = 1.0;
-const double evoparam_lower_limit = -1.0;
+const double EVOPARAM_UPPER_LIMIT = 1.0;
+const double EVOPARAM_LOWER_LIMIT = -1.0;
 
 #endif
